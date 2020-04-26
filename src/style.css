@@ -1,0 +1,27 @@
+body {
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+label {
+    text-align: center;
+}
+
+@media(min-width: 500px) {
+    form, .card {
+        width: 50%;
+    }
+}
+
+@media(min-width: 900px) {
+    form, .card {
+        width: 30%;
+    }
+}
+
+.signForm, .button {
+    width: 100%;
+}

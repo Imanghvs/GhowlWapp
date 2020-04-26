@@ -1,0 +1,46 @@
+<!-- Made by Iman Ghavasieh -->
+<!-- You can make a promise and sign it with this wapp! -->
+
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ghowl Wapp!</title>
+        
+        <!-- bulma -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css" />
+
+        <!-- our own CSS file -->
+        <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body>
+        <form dir="rtl" action="./src/ghowl.html">
+            <div class="field">
+                <label class="label" for="ghowlType">نوع قول:</label>
+                <div class="control is-info">
+                    <select name= "ghowlType" id="ghowlType" class="input">
+                        <option value="simpleGhowl">قول ساده</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="gtitle">عنوان قول، قرارداد یا عهدنامه:</label>
+                <div class="control is-info">
+                    <input name= "gtitle" id="gtitle" class="input" type="text" autocomplete="off" />
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="gtext">عنوان قول، قرارداد یا عهدنامه:</label>
+                <div class="control is-info">
+                    <textarea name= "gtext" id="gtext" class="textarea is-large" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input type="submit" class="button is-info" value="تایید"/>
+                </div>
+            </div> 
+        </form>
+    </body>
+</html>
